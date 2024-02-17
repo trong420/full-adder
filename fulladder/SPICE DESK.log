@@ -1,0 +1,23 @@
+Circuit: *
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed May 25 00:03:36 2022
+Total elapsed time: 1.258 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 8351
+traniter = 8328
+tranpoints = 2689
+accept = 2243
+rejected = 446
+matrix size = 143
+fillins = 14
+solver = Normal
+Thread vector: 190.0/142.0[3] 15.5/41.5[1] 5.1/14.2[1] 4.8/7.2[1]  2592/500
+Matrix Compiler1: 20.38 KB object code size  12.1/5.9/[3.6]
+Matrix Compiler2:    1473 opcodes  5.9/[5.3]/7.2
+

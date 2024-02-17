@@ -1,0 +1,41 @@
+-----------------------------------------------------------------------------
+Gemini 2.7.4 (64 bit) Compiled at 18:38:40 on Mar 22 2022 by Visual C++ 13.3
+-----------------------------------------------------------------------------
+
+Gemini started at 17:35:25 on 25/05/2022
+
+Command line:
+	-w 10.000000 -g D:\glade5_win64\New folder\full_adder\full_adder3.err -S D:\glade5_win64\New folder\full_adder\full_adder3_extracted.cdl D:\glade5_win64\New folder\full_adder\full_adder_extracted.cdl 
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : full_adder3_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       30
+  Number of nets    :       26
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : full_adder_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       30
+  Number of nets    :       26
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary after reduction : 
+-----------------------------------------------------------------------------
+		full_adder3_extracted.cdl	full_adder_extracted.cdl
+  Number of devices :       27			27
+  Number of nets    :       24			24
+  Number of ports   :       0			0
+
+There were no device property errors.
+41 (80%) matches were found by local matching.
+All nodes were matched in 5 passes.
+
+The netlists match.
+
+0 devices and 0 nets written to D:\glade5_win64\New folder\full_adder\full_adder3.err
+
+Gemini completed at 17:35:25 on 25/05/2022
+

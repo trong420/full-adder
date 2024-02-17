@@ -1,0 +1,66 @@
+*******************************************************************************
+* CDL netlist
+*
+* Library : full_adder
+* Top Cell Name: full_adder
+* View Name: schematic
+* Netlist created: 19.May.2022 12:33:46
+*******************************************************************************
+
+*.SCALE METER
+.GLOBAL vdd,vss
+
+*******************************************************************************
+* Library Name: full_adder
+* Cell Name:    full_adder
+* View Name:    schematic
+*******************************************************************************
+
+*.SUBCKT full_adder B Cin A Cout S
+*.PININFO Cout:O S:O B:I Cin:I A:I
+
+M20 n25 Cin S vdd pch w=1.1u l=0.13u m=1
+M2 n36 A vss vss nch w=1.1u l=0.13u m=1
+M24 n50 n35 n52 vss nch w=1.1u l=0.13u m=1
+M29 n3 n42 vdd vdd pch w=1.1u l=0.13u m=1
+M37 n9 n44 vdd vdd pch w=1.1u l=0.13u m=1
+M38 n8 n3 n9 vdd pch w=1.1u l=0.13u m=1
+M26 n42 n11 vdd vdd pch w=1.1u l=0.13u m=1
+M39 n8 n44 vss vss nch w=1.1u l=0.13u m=1
+M27 n42 n11 n16 vss nch w=1.1u l=0.13u m=1
+M22 n51 Cin n50 vss nch w=1.1u l=0.13u m=1
+M14 n40 n11 vss vss nch w=1.1u l=0.13u m=1
+M4 n48 B vss vss nch w=1.1u l=0.13u m=1
+M12 n34 n48 n49 vss nch w=1.1u l=0.13u m=1
+M18 S n35 n24 vdd pch w=1.1u l=0.13u m=1
+M6 n11 n48 n54 vdd pch w=1.1u l=0.13u m=1
+M41 Cout n8 vdd vdd pch w=1.1u l=0.13u m=1
+M17 n24 n11 vdd vdd pch w=1.1u l=0.13u m=1
+M28 n16 Cin vss vss nch w=1.1u l=0.13u m=1
+M23 n52 n40 S vss nch w=1.1u l=0.13u m=1
+M19 vdd n40 n25 vdd pch w=1.1u l=0.13u m=1
+M16 n35 Cin vss vss nch w=1.1u l=0.13u m=1
+M9 n11 A n19 vss nch w=1.1u l=0.13u m=1
+M40 n8 n3 vss vss nch w=1.1u l=0.13u m=1
+M11 n49 n36 n11 vss nch w=1.1u l=0.13u m=1
+M34 n43 A vss vss nch w=1.1u l=0.13u m=1
+M15 n35 Cin vdd vdd pch w=1.1u l=0.13u m=1
+M36 n44 n15 vss vss nch w=1.1u l=0.13u m=1
+M25 n42 Cin vdd vdd pch w=1.1u l=0.13u m=1
+M30 n3 n42 vss vss nch w=1.1u l=0.13u m=1
+M5 n54 A vdd vdd pch w=1.1u l=0.13u m=1
+M35 n44 n15 vdd vdd pch w=1.1u l=0.13u m=1
+M21 S n11 n51 vss nch w=1.1u l=0.13u m=1
+M3 n48 B vdd vdd pch w=1.1u l=0.13u m=1
+M8 n55 B n11 vdd pch w=1.1u l=0.13u m=1
+M7 vdd n36 n55 vdd pch w=1.1u l=0.13u m=1
+M32 n15 B vdd vdd pch w=1.1u l=0.13u m=1
+M31 n15 A vdd vdd pch w=1.1u l=0.13u m=1
+M42 Cout n8 vss vss nch w=1.1u l=0.13u m=1
+M13 n40 n11 vdd vdd pch w=1.1u l=0.13u m=1
+M1 n36 A vdd vdd pch w=1.1u l=0.13u m=1
+M10 n19 B n34 vss nch w=1.1u l=0.13u m=1
+M33 n15 B n43 vss nch w=1.1u l=0.13u m=1
+*.ENDS
+
+.END

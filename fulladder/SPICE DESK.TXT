@@ -1,0 +1,12 @@
+
+.include 130nm_bulk.lib
+.include adder10.cdl
+
+vdd vdd 0 dc 1.3
+vss vss 0 dc 0
+
+VA A vss PULSE 0 1.3 0 1m 1m 1 2
+VB B vss PULSE 0 1.3 0 1m 1m 1.2 2.1
+VCin Cin vss PULSE 0 1.3 0 1m 1m 1.4 2.4
+.tran 10
+.end
