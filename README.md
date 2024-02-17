@@ -48,7 +48,7 @@
 
 ---
 
-GLADE link: [PEARDROP DESIGN SYSTEMS](https://edaplayground.com/x/8r2a)
+GLADE VLSI Home Page: [PEARDROP DESIGN SYSTEMS](https://peardrop.co.uk/)
 
 
 
