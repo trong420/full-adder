@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<h1>Full Adder Layout</h1>
+<h1>Full Adder Layout With GLADE VLSI</h1>
 </div>
 
 
@@ -46,7 +46,9 @@
 
 ![image](https://github.com/trong420/full-adder/assets/90754954/a9d55338-5de1-4014-8365-d238fb713cb3)
 
+---
 
+GLADE link: [PEARDROP DESIGN SYSTEMS](https://edaplayground.com/x/8r2a)
 
 
 
